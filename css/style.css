@@ -1,0 +1,43 @@
+.nav {
+    width:900px;
+    margin:0 auto;
+}
+.headerlogo {
+    position: absolute;
+}
+body {
+    font-family: Helvetica,Arial,sans-serif;
+}
+a {
+    color: #0098d0;
+    text-decoration: underline;
+}
+.nav a:hover {
+    background-color: #0098d0;
+    color: white;
+    text-decoration: none;
+}
+.myprofile  {
+    margin:13px 0;
+    padding:7px 15px;
+}
+.adadvert {
+    background-color: #ff983b; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    margin: 13px 0;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    position relative;
+}
+.adadvert:hover {
+
+}
+.language {
+    position:absolute;
+
+}
