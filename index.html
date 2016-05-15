@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>OLX clone</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
@@ -12,24 +11,158 @@
 <body>
     <div class="header">
         <div class="nav">
-            <img src="img/header-logo.png" alt="logo" class="headerlogo">
-            <div class="col-md-3 col-md-offset-6">
-                <div class="myprofile">
-                    <img src="img/my-profile.png" alt="profilelogo">
-                    <a href="#">Мой прфиль</a>
+            <a href="#"><img src="img/header-logo.png" alt="logo" class="headerlogo"></a>
+            <button type="button" class="addadvert-button">ПОДАТЬ ОБЬЯВЛЕНИЕ</button>
+            <div class="myprofile">
+                <img src="img/my-profile.png" alt="profilelogo">
+                <a href="#">Мой профиль</a>
+            </div>
+            <div class="language">
+                <a href="#">язык</a>
+                &nbsp;|&nbsp;
+                <a href="#">мова</a>
+            </div>
+        </div>
+        <div class="searchbox-container">
+            <div class="searchbox">
+                <div class="all-search-wrapper">
+                    <div class="search-input-wrapper">
+                        <div class="search-input">
+                            <img src="img/search-icon.png" alt="search" class="search-input-icon">
+                            <input type="text" name="q" value="13 000 645 обьявлений рядом"
+                                   onfocus="if (this.value=='13 000 645 обьявлений рядом') this.value='';" class="input-tab-search">
+                        </div>
+                    </div>
+                    <div class="position-input-wrapper">
+                        <div class="position-input">
+                            <img src="img/position-icon.png" alt="search" class="position-icon">
+                            <input type="text" name="q" value="Киевская область"
+                                   onfocus="if (this.value=='Киевская область') this.value='';" class="input-tab-position">
+                        </div>
+                    </div>
+                    <div class="search-submit">
+                        <img src="img/search-icon.png" alt="search2" class="search-submit-icon">
+                        <input type="submit" name="q" value="ПОИСК" class="input-search-submit">
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <button type="button" class="adadvert">ПОДАТЬ ОБЬЯВЛЕНИЕ</button>
+            <div class="all-categories-wrapper">
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/childrens-icon.png" alt="childs world"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Детский мир</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/property-icon.png" alt="property"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Недвижимость</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/transport-icon.png" alt="transport"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Транспорт</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/work-icon.png" alt="work"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Работа</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/animals-icon.png" alt="animals"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Животные</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/house-icon.png" alt="house"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Дом и сад</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/electronics-icon.png" alt="electronics"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Электроника</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/business-icon.png" alt="business"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Бизнес и услуги</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/fashion-icon.png" alt="fashion"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Мода и стиль</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/sport-icon.png" alt="sport"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Спорт и отдых</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/helpWanted-icon.png" alt="helpWanted"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Требуется помощь</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/giveaway-icon.png" alt="giveaway"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Отдам даром</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/exchange-icon.png" alt="exchange"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Обмен</a>
+                    </div>
+                </div>
+                <div class="category-wrapper">
+                    <div class="icon-wrapper">
+                        <a href="#"><img src="img/knowledge-icon.png" alt="knowledge"></a>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">Учеба</a>
+                    </div>
+                </div>
             </div>
-            <div class="language">asdas
-                asdfasdf<br>
-                asdf<br>
-                dasd</div>
-        </div>
-        <div class="searchbox">
-ЫВАПЫВАПЫВАП
         </div>
     </div>
+    <a href="#" class="mobileapps"><img src="img/mobile-app.png" alt="mobileapps"></a>
+    <a href="#" class="delivery"><img src="img/about-delivery.png" alt="about delivery"></a>
 </body>
 </html>

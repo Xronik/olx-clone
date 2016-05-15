@@ -1,43 +1,230 @@
-.nav {
-    width:900px;
-    margin:0 auto;
-}
-.headerlogo {
-    position: absolute;
-}
 body {
     font-family: Helvetica,Arial,sans-serif;
 }
+
 a {
     color: #0098d0;
     text-decoration: underline;
 }
-.nav a:hover {
+
+.headerlogo {
+    position: absolute;
+    margin-top:4px;
+}
+header {
+    position: relative;
+}
+
+.nav {
+    width:890px;
+    margin:0 auto;
+    position: relative;
+}
+
+.nav .myprofile a:hover, .category-link a:hover {
     background-color: #0098d0;
     color: white;
     text-decoration: none;
 }
+
 .myprofile  {
     margin:13px 0;
     padding:7px 15px;
+    float: right;
 }
-.adadvert {
-    background-color: #ff983b; /* Green */
+
+.addadvert-button {
+    background-color: #ff983b;
     border: none;
     color: white;
     padding: 8px 14px;
-    margin: 13px 0;
+    margin: 15px 0 11px;
     text-align: center;
     font-weight: 600;
+    font-size: 14px;
     text-decoration: none;
     display: inline-block;
     border-radius: 4px;
-    position relative;
+    float: right;
 }
-.adadvert:hover {
 
+.addadvert-button:hover {
+    opacity: 0.8;
 }
+
 .language {
-    position:absolute;
+    position: absolute;
+    left:100%;
+    white-space: nowrap;
+    top:15px;
+    margin-left: 9px;
+    padding:7px 12px;
+}
 
+.nav .language a {
+    text-decoration: none;
+}
+
+.searchbox-container {
+    background-color: #f7f7f7;
+    padding:20px 0;
+}
+
+.searchbox {
+    background-color: #0098d0;
+    width:890px;
+    margin:0 auto;
+    height:72px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.all-search-wrapper {
+    margin:18px 15px;
+    width: 860px;
+    height: 36px;
+    background-color: #0098d0;
+    float:left;
+    position: relative;
+}
+
+.search-input-wrapper{
+    margin:0 17px 0 0;
+    height: 36px;
+    width: 386px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+.search-input {
+    display: inline-block;
+    height: 36px;
+    width: 307px;
+    margin: 0 40px;
+    padding: 8px 0;
+
+}
+
+.input-tab-search {
+    display: inline;
+    align-items:center;
+    border: none;
+    width: 300px;
+    font-size: 16px;
+    outline-style: none;
+}
+
+.input-tab-position {
+    display: inline-block;
+    align-items:center;
+    border: none;
+    width: 250px;
+    font-size: 16px;
+    outline-style: none;
+}
+
+.search-input-icon {
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    top: 7px;
+}
+
+.position-input-wrapper {
+    height: 36px;
+    width: 327px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.position-input {
+    display: inline-block;
+    margin: 0 32px;
+    padding: 8px 0;
+    height: 36px;
+    width: 263px;
+}
+
+.position-icon {
+    position: absolute;
+    left: 10px;
+    top: 6px;
+}
+
+.search-submit {
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 107px;
+    height: 36px;
+}
+
+.input-search-submit {
+    background-color: #49AEEF;
+    color: white;
+    background-repeat: no-repeat;
+    height:36px;
+    padding: 0 15px 0 37px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.input-search-submit:hover {
+    background-color: #97D5EC;
+}
+.search-submit-icon {
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    top: 7px;
+}
+
+.all-categories-wrapper {
+    width:890px;
+    margin:0 auto;
+    position: relative;
+}
+
+.category-wrapper {
+    position: relative;
+    display: inline-block;
+    width:219px;
+    height:48px;
+    margin-top: 20px;
+}
+
+.icon-wrapper {
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.category-link {
+    display: inline-block;
+    padding:16px 12px 16px 60px;
+    width: 219px;
+    height: 48px;
+    position: relative;
+}
+
+.category-link a {
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+}
+
+.mobileapps {
+    position: fixed;
+    top: 160px;
+}
+
+.delivery {
+    position: fixed;
+    top: 350px;
 }
