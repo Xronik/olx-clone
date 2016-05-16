@@ -164,7 +164,6 @@ header {
 .input-search-submit {
     background-color: #49AEEF;
     color: white;
-    background-repeat: no-repeat;
     height:36px;
     padding: 0 15px 0 37px;
     text-decoration: none;
@@ -207,10 +206,11 @@ header {
 
 .category-link {
     display: inline-block;
-    padding:16px 12px 16px 60px;
-    width: 219px;
+    padding:16px 12px 16px 0;
+    width: 159px;
     height: 48px;
     position: relative;
+    margin-left: 60px;
 }
 
 .category-link a {
@@ -227,4 +227,60 @@ header {
 .delivery {
     position: fixed;
     top: 350px;
+}
+
+.main-container {
+    width:890px;
+    margin:0 auto;
+    position: relative;
+    padding: 20px 0;
+}
+
+.main-wrapper {
+
+}
+
+.main-product {
+    display:inline-block;
+    width: 170px;
+    height: 184px;
+}
+
+.main-product-image-wrapper {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center
+    width: 170px;
+    height: 132px;
+    background-color: #f7f7f7;
+}
+
+.main-product-image {
+    max-width: 170px;
+    max-height: 132px;
+}
+
+.main-product-name-wrapper {
+    width: 170px;
+    height: 27px;
+    padding: 7px 7px 0;
+}
+
+.main-product-name {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main-product-price {
+    width: 140px;
+    height: 25px;
+    padding: 0 7px 7px;
+    margin: 0 30px 0 0;
+    font-size: 18px;
+}
+
+.liked {
+
 }
