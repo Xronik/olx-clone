@@ -11,17 +11,18 @@ a {
     position: absolute;
     margin-top:4px;
 }
-header {
+.header {
     position: relative;
 }
 
 .nav {
     width:890px;
+    height: 62px;
     margin:0 auto;
     position: relative;
 }
 
-.nav .myprofile a:hover, .category-link a:hover {
+.nav .myprofile a:hover, .category-link a:hover, .main-product-name-wrapper a:hover {
     background-color: #0098d0;
     color: white;
     text-decoration: none;
@@ -31,6 +32,14 @@ header {
     margin:13px 0;
     padding:7px 15px;
     float: right;
+    width: 134px;
+    height: 26px;    display: inline-block;
+    vertical-align: middle;
+}
+
+.myprofile-text {
+    display: inline-block;
+    vertical-align: super;
 }
 
 .addadvert-button {
@@ -46,6 +55,7 @@ header {
     display: inline-block;
     border-radius: 4px;
     float: right;
+    cursor: pointer;
 }
 
 .addadvert-button:hover {
@@ -56,9 +66,10 @@ header {
     position: absolute;
     left:100%;
     white-space: nowrap;
-    top:15px;
+    top:17px;
     margin-left: 9px;
     padding:7px 12px;
+    font-size: 13px;
 }
 
 .nav .language a {
@@ -68,6 +79,7 @@ header {
 .searchbox-container {
     background-color: #f7f7f7;
     padding:20px 0;
+    display: block;
 }
 
 .searchbox {
@@ -162,7 +174,7 @@ header {
 }
 
 .input-search-submit {
-    background-color: #49AEEF;
+    background: #49AEEF url("../img/search-icon2.png") no-repeat 11px 7px;
     color: white;
     height:36px;
     padding: 0 15px 0 37px;
@@ -176,12 +188,6 @@ header {
 
 .input-search-submit:hover {
     background-color: #97D5EC;
-}
-.search-submit-icon {
-    display: inline-block;
-    position: absolute;
-    left: 12px;
-    top: 7px;
 }
 
 .all-categories-wrapper {
@@ -236,10 +242,6 @@ header {
     padding: 20px 0;
 }
 
-.main-wrapper {
-
-}
-
 .main-product {
     display:inline-block;
     width: 170px;
@@ -249,7 +251,7 @@ header {
 .main-product-image-wrapper {
     display:table-cell;
     vertical-align:middle;
-    text-align:center
+    text-align:center;
     width: 170px;
     height: 132px;
     background-color: #f7f7f7;
@@ -267,6 +269,7 @@ header {
 }
 
 .main-product-name {
+    width: 156px;
     display: block;
     white-space: nowrap;
     overflow: hidden;
